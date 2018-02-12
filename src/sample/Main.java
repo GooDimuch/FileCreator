@@ -21,7 +21,7 @@ public class Main extends Application {
     private static final String STAGE_TITLE = "File creator";
     private static final int SCENE_WIDTH = 720;
     private static final int SCENE_HEIGHT = 360;
-    public static final String PATH_PROGRAM_FILES = "C:\\Program Files\\Copy_Paste\\";
+    private static final String PATH_PROGRAM_FILES = "C:\\Program Files\\Copy_Paste\\";
     public static String sStartDirectory = "C:\\_Data\\_Cloud9\\test\\";
     private ObservableList<MyRow> rows;
     private TextField tfNameNewFile;
